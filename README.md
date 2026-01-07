@@ -1,1 +1,1 @@
-# Sumedh-Chintawar---Portfolio
+# Sumedh-Chintawar-Portfolio
