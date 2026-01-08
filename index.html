@@ -15,22 +15,25 @@
         }
         
         :root {
-          --bg: #f7f8fb;            /* soft cool gray background */
-          --surface: #ffffff;       /* card background */
-          --ink: #0b1220;           /* near-black text */
-          --muted: #5b6475;         /* secondary text */
-          --border: #e3e7ef;        /* borders */
-          --surface-2: #eef2f7;     /* light section background */
-        
-          --accent: #2f6bff;        /* primary blue */
-          --accent-2: #1f4fd6;      /* hover blue */
-          --nav-bg: rgba(255,255,255,0.78); /* glassy nav */
-
-          --white: var(--surface);
-          --primary-black: var(--ink);
-          --medium-gray: var(--muted);
-          --dark-gray: #2b3445;
-          --light-gray: var(--surface-2);
+            /* Lions dark + Honolulu Blue theme */
+              --bg: #0f1115;          /* dark page background */
+              --surface: #151922;     /* card background */
+              --surface-2: #1b2230;   /* section / header panels */
+              --ink: #f4f7ff;         /* main text (near-white) */
+              --muted: #b8c0d4;       /* secondary text */
+              --border: #2a3142;      /* borders */
+            
+              --accent: #0076B6;      /* Detroit Lions Honolulu Blue */
+              --accent-2: #4db6ff;    /* lighter blue hover */
+            
+              --nav-bg: rgba(15,17,21,0.75); /* glassy dark nav */
+            
+              /* aliases so your old CSS still works */
+              --white: var(--surface);
+              --primary-black: var(--ink);
+              --medium-gray: var(--muted);
+              --dark-gray: var(--muted);
+              --light-gray: var(--surface-2);
         }
         
         body {
@@ -43,7 +46,7 @@
         }
         
         header {
-          background: linear-gradient(180deg, #0b1220 0%, #0f1a2f 100%);
+          background: linear-gradient(180deg, #0f1115 0%, #151922 100%);
           padding: 90px 20px 44px;
           text-align: center;
         }
@@ -78,7 +81,7 @@
         }
         
         .contact-info a:hover {
-          color: #ffffff;
+          color: var(--accent-2);
         }
         
         .container {
@@ -198,7 +201,7 @@
         .project-content p {
             margin-bottom: 20px;
             line-height: 1.8;
-            color: var(--dark-gray);
+            color: var(--muted);
             font-size: 1.15em;
             font-weight: 300;
         }
@@ -379,8 +382,8 @@
         }
         
         .quick-nav a:hover {
-          border-color: rgba(47,107,255,0.35);
-          background: rgba(47,107,255,0.10);
+          border-color: rgba(0,118,182,0.45);
+          background: rgba(0,118,182,0.12);
           color: var(--accent-2);
         }
         
