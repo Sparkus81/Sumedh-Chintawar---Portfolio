@@ -37,13 +37,13 @@
 
     header {
       background: linear-gradient(135deg, var(--card-bg) 0%, var(--panel-bg) 100%);
-      padding: 50px 20px 22px;
+      padding: 46px 20px 18px;
       text-align: center;
       border-bottom: 1px solid var(--border-color);
     }
 
     header h1 {
-      font-size: 3em;
+      font-size: 2.75em;
       font-weight: 700;
       margin-bottom: 8px;
       letter-spacing: -1px;
@@ -54,21 +54,21 @@
     }
 
     header p {
-      font-size: 1.1em;
+      font-size: 1.05em;
       font-weight: 300;
       color: var(--text-secondary);
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
 
     .contact-info {
-      margin-bottom: 6px;
+      margin-bottom: 4px;
       font-size: 0.95em;
     }
 
     .contact-info a {
       color: var(--accent-blue);
       text-decoration: none;
-      margin: 0 18px;
+      margin: 0 16px;
       transition: color 0.2s ease;
       font-weight: 600;
     }
@@ -89,7 +89,7 @@
     .quick-nav-container {
       max-width: 1400px;
       margin: 0 auto;
-      padding: 12px 18px;
+      padding: 10px 16px;
       display: flex;
       justify-content: center;
       gap: 10px;
@@ -125,14 +125,14 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 44px 20px 60px;
+      padding: 40px 20px 56px;
     }
 
     /* About Section */
     .about-section {
       background: var(--card-bg);
-      padding: 44px;
-      margin-bottom: 44px;
+      padding: 38px;
+      margin-bottom: 34px;
       border-radius: 12px;
       border: 1px solid var(--border-color);
       box-shadow: 0 6px 24px var(--shadow);
@@ -140,38 +140,38 @@
     }
 
     .about-section h2 {
-      font-size: 2.1em;
-      margin-bottom: 18px;
+      font-size: 2.0em;
+      margin-bottom: 14px;
       font-weight: 800;
       color: var(--accent-blue);
     }
 
     .about-section p {
-      font-size: 1.12em;
+      font-size: 1.08em;
       line-height: 1.85;
       color: var(--text-secondary);
-      margin-bottom: 26px;
+      margin-bottom: 20px;
     }
 
     .about-section h3 {
-      font-size: 1.35em;
-      margin-bottom: 14px;
+      font-size: 1.25em;
+      margin-bottom: 12px;
       font-weight: 700;
       color: var(--text-primary);
     }
 
     .skills-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
     }
 
     .skill-badge {
       background: var(--panel-bg);
       color: var(--text-primary);
-      padding: 14px;
+      padding: 12px;
       text-align: center;
-      font-size: 0.95em;
+      font-size: 0.92em;
       font-weight: 700;
       border-radius: 10px;
       border: 1px solid var(--border-color);
@@ -188,7 +188,7 @@
     /* Projects */
     .project {
       background: var(--card-bg);
-      margin-bottom: 34px;
+      margin-bottom: 28px;
       border-radius: 12px;
       border: 1px solid var(--border-color);
       overflow: hidden;
@@ -198,28 +198,28 @@
 
     .project-header {
       background: linear-gradient(135deg, var(--panel-bg) 0%, var(--card-bg) 100%);
-      padding: 22px 26px;
+      padding: 18px 22px;
       border-bottom: 2px solid var(--accent-blue);
     }
 
     .project-header h2 {
-      font-size: 1.9em;
+      font-size: 1.75em;
       margin-bottom: 6px;
       font-weight: 800;
       color: var(--text-primary);
     }
 
     .project-meta {
-      font-size: 0.95em;
+      font-size: 0.92em;
       color: var(--text-secondary);
       font-weight: 500;
     }
 
-    .project-content { padding: 26px; }
+    .project-content { padding: 22px; }
 
     .project-content h3 {
-      font-size: 1.25em;
-      margin-top: 20px;
+      font-size: 1.18em;
+      margin-top: 16px;
       margin-bottom: 10px;
       font-weight: 800;
       color: var(--accent-blue);
@@ -230,44 +230,38 @@
     .project-content h3:first-of-type { margin-top: 0; }
 
     .project-content p {
-      margin-bottom: 14px;
+      margin-bottom: 12px;
       line-height: 1.85;
       color: var(--text-secondary);
-      font-size: 1.03em;
+      font-size: 1.0em;
     }
 
-    .project-content ul { margin-left: 22px; margin-bottom: 18px; }
-
-    .project-content li {
-      margin-bottom: 10px;
-      line-height: 1.85;
-      color: var(--text-secondary);
-    }
-
+    .project-content ul { margin-left: 20px; margin-bottom: 14px; }
+    .project-content li { margin-bottom: 8px; line-height: 1.85; color: var(--text-secondary); }
     .project-content li strong { color: var(--text-primary); font-weight: 800; }
 
     .tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 18px;
+      gap: 8px;
+      margin-bottom: 14px;
     }
 
     .tag {
       background: var(--accent-blue);
       color: #0b1420;
-      padding: 6px 14px;
+      padding: 6px 12px;
       border-radius: 999px;
-      font-size: 0.88em;
+      font-size: 0.86em;
       font-weight: 800;
     }
 
-    /* Images */
+    /* Images (smaller + tighter) */
     .image-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 16px;
-      margin: 18px 0;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin: 14px 0;
     }
 
     .image-container {
@@ -279,31 +273,51 @@
     }
 
     .image-container:hover {
-      transform: translateY(-3px);
+      transform: translateY(-2px);
       box-shadow: 0 12px 28px rgba(74, 158, 255, 0.10);
       border-color: rgba(74, 158, 255, 0.55);
     }
 
-    .image-container img { width: 100%; height: auto; display: block; }
+    /* Make images visually smaller by constraining height + cropping nicely */
+    .image-container img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+    }
 
     .image-caption {
-      padding: 12px 14px;
+      padding: 10px 12px;
       background: rgba(45, 50, 62, 0.75);
       color: var(--text-secondary);
-      font-size: 0.9em;
+      font-size: 0.88em;
       text-align: center;
       border-top: 1px solid var(--border-color);
     }
 
-    /* Collapsible grids (show more) */
-    .collapsible-grid { display: none; }
-    .collapsible-grid.visible { display: grid; }
-
-    .featured-image-container {
-      margin: 18px 0 6px;
+    /* Showcase blocks */
+    .showcase {
+      max-width: 720px;
+      margin: 14px auto 6px;
       display: grid;
       gap: 12px;
     }
+
+    .showcase-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    /* Two-up showcase images slightly shorter */
+    .showcase-grid-2 .image-container img { height: 160px; }
+
+    /* Single showcase image */
+    .showcase .image-container img { height: 200px; }
+
+    /* Collapsible grids (show more) */
+    .collapsible-grid { display: none; }
+    .collapsible-grid.visible { display: grid; }
 
     .show-more-btn {
       width: fit-content;
@@ -329,14 +343,14 @@
       background: var(--panel-bg);
       border-radius: 12px;
       overflow: hidden;
-      margin: 18px 0;
+      margin: 14px 0;
       border: 1px solid var(--border-color);
     }
 
     .specs-table table { width: 100%; border-collapse: collapse; }
 
     .specs-table td {
-      padding: 14px 16px;
+      padding: 12px 14px;
       border-bottom: 1px solid var(--border-color);
     }
 
@@ -350,32 +364,11 @@
 
     .specs-table td:last-child { color: var(--text-secondary); }
 
-    .featured-image {
-      max-width: 600px;
-      margin: 22px auto;
-      background: var(--panel-bg);
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid var(--border-color);
-      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.3);
-    }
-
-    .featured-image img { width: 100%; height: auto; display: block; }
-
-    .featured-caption {
-      padding: 14px 16px;
-      background: rgba(45, 50, 62, 0.75);
-      color: var(--text-primary);
-      text-align: center;
-      font-weight: 800;
-      border-top: 2px solid rgba(74, 158, 255, 0.65);
-    }
-
     footer {
       background: var(--card-bg);
       text-align: center;
-      padding: 44px 20px;
-      margin-top: 60px;
+      padding: 40px 20px;
+      margin-top: 48px;
       border-top: 2px solid var(--accent-blue);
     }
 
@@ -385,11 +378,14 @@
     footer a:hover { color: var(--text-primary); }
 
     @media (max-width: 768px) {
-      header h1 { font-size: 2.3em; }
-      .about-section { padding: 30px; }
-      .project-content { padding: 22px; }
-      .project-header { padding: 18px 20px; }
+      header h1 { font-size: 2.2em; }
+      .about-section { padding: 28px; }
+      .project-content { padding: 18px; }
+      .project-header { padding: 16px 18px; }
       .image-grid { grid-template-columns: 1fr; }
+      .showcase-grid-2 { grid-template-columns: 1fr; }
+      .image-container img { height: 190px; }
+      .showcase .image-container img { height: 210px; }
     }
   </style>
 </head>
@@ -445,6 +441,7 @@
         <h2>Formula SAE Pedal Box Heel Stop</h2>
         <div class="project-meta">HYTECH Electric Racing | CATIA V5, FEA | 2025</div>
       </div>
+
       <div class="project-content">
         <div class="tags">
           <span class="tag">CATIA V5</span>
@@ -457,26 +454,29 @@
         <h3>Overview</h3>
         <p>Designed and fabricated a high-performance, load-bearing heel stop component for an electric Formula SAE race car's pedal box assembly. The project required achieving optimal structural integrity while minimizing weight and improving driver ergonomics under rigorous competition constraints.</p>
 
-        <div class="featured-image-container">
-          <div class="image-container" style="max-width:600px;margin:0 auto;">
-            <img src="https://i.imgur.com/AyjugB3.jpeg" alt="Heel Stop" loading="lazy">
-            <div class="image-caption">3D printed model with heel shape testing</div>
+        <h3>Showcase</h3>
+        <div class="showcase">
+          <div class="showcase-grid-2">
+            <div class="image-container">
+              <img src="https://i.imgur.com/heY783W.png" alt="Heel Stop V0" loading="lazy">
+              <div class="image-caption">V0 of Heel Stop</div>
+            </div>
+            <div class="image-container">
+              <img src="https://i.imgur.com/p5gslI1.png" alt="Heel Stop V1" loading="lazy">
+              <div class="image-caption">V1 of Heel Stop</div>
+            </div>
           </div>
-          <button class="show-more-btn" onclick="toggleImages('heel-images', this)">Show More Images (3)</button>
+          <button class="show-more-btn" onclick="toggleImages('heel-more', this)">Show More Images (2)</button>
         </div>
 
-        <div class="image-grid collapsible-grid" id="heel-images">
+        <div class="image-grid collapsible-grid" id="heel-more">
+          <div class="image-container">
+            <img src="https://i.imgur.com/AyjugB3.jpeg" alt="Heel Stop 3D Print Test" loading="lazy">
+            <div class="image-caption">3D printed model with heel shape testing</div>
+          </div>
           <div class="image-container">
             <img src="https://i.imgur.com/gUpl1uS.png" alt="Heel Stop Installed" loading="lazy">
-            <div class="image-caption">Pedal box setup with heel stop</div>
-          </div>
-          <div class="image-container">
-            <img src="https://i.imgur.com/heY783W.png" alt="Heel Stop V0" loading="lazy">
-            <div class="image-caption">V0 of Heel Stop</div>
-          </div>
-          <div class="image-container">
-            <img src="https://i.imgur.com/p5gslI1.png" alt="Heel Stop V1" loading="lazy">
-            <div class="image-caption">V1 of Heel Stop</div>
+            <div class="image-caption">Pedal box setup with heel stop installed</div>
           </div>
         </div>
 
@@ -505,6 +505,7 @@
         <h2>All-Terrain Truck with Rotatable Wheel System</h2>
         <div class="project-meta">Academic Team Project | SolidWorks | 2023</div>
       </div>
+
       <div class="project-content">
         <div class="tags">
           <span class="tag">SolidWorks</span>
@@ -516,16 +517,17 @@
         <h3>Overview</h3>
         <p>Collaborated with a team to design a prototype all-terrain vehicle featuring an innovative rotatable wheel system for enhanced mobility. Responsible for doors, hinges, and suspension systems within a ~50 component assembly.</p>
 
-        <h3>Component Designs</h3>
-        <div class="featured-image-container">
-          <div class="image-container" style="max-width:600px;margin:0 auto;">
-            <img src="https://i.imgur.com/C5VWE61.png" alt="Suspension" loading="lazy">
-            <div class="image-caption">Suspension System Integration</div>
+        <h3>Showcase</h3>
+        <div class="showcase">
+          <div class="image-container" style="max-width:720px;margin:0 auto;">
+            <img src="https://i.imgur.com/q6UVlT8.jpeg" alt="Full Truck Assembly Rendering" loading="lazy">
+            <div class="image-caption">Final truck rendering (full assembly)</div>
           </div>
-          <button class="show-more-btn" onclick="toggleImages('truck-components', this)">Show More Components (7)</button>
+          <button class="show-more-btn" onclick="toggleImages('truck-components', this)">Show CAD Components (8)</button>
         </div>
 
         <div class="image-grid collapsible-grid" id="truck-components">
+          <div class="image-container"><img src="https://i.imgur.com/C5VWE61.png" alt="Suspension" loading="lazy"><div class="image-caption">Suspension System Integration</div></div>
           <div class="image-container"><img src="https://i.imgur.com/o3YUcCQ.png" alt="Hinge Pin" loading="lazy"><div class="image-caption">Hinge Pin Part</div></div>
           <div class="image-container"><img src="https://i.imgur.com/DdJw8gA.png" alt="Outer Hinge" loading="lazy"><div class="image-caption">Outer Hinge Component</div></div>
           <div class="image-container"><img src="https://i.imgur.com/MIdSfOw.png" alt="Inner Hinge" loading="lazy"><div class="image-caption">Inner Hinge Component</div></div>
@@ -533,28 +535,6 @@
           <div class="image-container"><img src="https://i.imgur.com/rUj1J70.png" alt="Door Frame" loading="lazy"><div class="image-caption">Structural Door Frame</div></div>
           <div class="image-container"><img src="https://i.imgur.com/ss4D9b3.png" alt="Door Assembly" loading="lazy"><div class="image-caption">Complete Door Assembly</div></div>
           <div class="image-container"><img src="https://i.imgur.com/5tIYgXP.png" alt="Hinge Assembly" loading="lazy"><div class="image-caption">Complete Hinge Assembly</div></div>
-        </div>
-
-        <h3>Final Assembly</h3>
-        <div class="featured-image">
-          <img src="https://i.imgur.com/q6UVlT8.jpeg" alt="Full Truck Assembly" loading="lazy">
-          <div class="featured-caption">Complete All-Terrain Truck Assembly</div>
-        </div>
-
-        <h3>Assembly Documentation</h3>
-        <div class="featured-image-container">
-          <div class="image-container" style="max-width:600px;margin:0 auto;">
-            <img src="https://i.imgur.com/Vf2lllf.png" alt="Exploded View 1" loading="lazy">
-            <div class="image-caption">Exploded assembly with BOM</div>
-          </div>
-          <button class="show-more-btn" onclick="toggleImages('truck-assembly', this)">Show More Documentation (1)</button>
-        </div>
-
-        <div class="image-grid collapsible-grid" id="truck-assembly">
-          <div class="image-container">
-            <img src="https://i.imgur.com/BdgCPjF.png" alt="Exploded View 2" loading="lazy">
-            <div class="image-caption">Component hierarchy</div>
-          </div>
         </div>
 
         <div class="specs-table">
@@ -573,6 +553,7 @@
         <h2>Hydrophobic Umbrella Design</h2>
         <div class="project-meta">ME 3210 Design & Manufacturing | SolidWorks | Fall 2024</div>
       </div>
+
       <div class="project-content">
         <div class="tags">
           <span class="tag">SolidWorks</span>
@@ -584,17 +565,18 @@
         <h3>Overview</h3>
         <p>Designed an innovative umbrella incorporating hydrophobic nanomaterial coating and low-friction mechanisms to address water retention and jamming issues in traditional umbrellas.</p>
 
-        <div class="featured-image-container">
-          <div class="image-container" style="max-width:600px;margin:0 auto;">
-            <img src="https://i.imgur.com/mn0oiPz.png" alt="Umbrella 1" loading="lazy">
+        <h3>Showcase</h3>
+        <div class="showcase">
+          <div class="image-container" style="max-width:720px;margin:0 auto;">
+            <img src="https://i.imgur.com/mn0oiPz.png" alt="Umbrella Assembly" loading="lazy">
             <div class="image-caption">Complete umbrella assembly</div>
           </div>
           <button class="show-more-btn" onclick="toggleImages('umbrella-images', this)">Show More Images (2)</button>
         </div>
 
         <div class="image-grid collapsible-grid" id="umbrella-images">
-          <div class="image-container"><img src="https://i.imgur.com/x0FiwB5.png" alt="Umbrella 2" loading="lazy"><div class="image-caption">Mechanism detail</div></div>
-          <div class="image-container"><img src="https://i.imgur.com/jdTzgf9.png" alt="Umbrella 3" loading="lazy"><div class="image-caption">Frame assembly</div></div>
+          <div class="image-container"><img src="https://i.imgur.com/x0FiwB5.png" alt="Umbrella Mechanism Detail" loading="lazy"><div class="image-caption">Mechanism detail</div></div>
+          <div class="image-container"><img src="https://i.imgur.com/jdTzgf9.png" alt="Umbrella Frame Assembly" loading="lazy"><div class="image-caption">Frame assembly</div></div>
         </div>
 
         <h3>Key Innovations</h3>
@@ -620,6 +602,7 @@
         <h2>Stainless Steel Tea Kettle</h2>
         <div class="project-meta">Academic/Personal Project | SolidWorks | 2023</div>
       </div>
+
       <div class="project-content">
         <div class="tags">
           <span class="tag">SolidWorks</span>
@@ -631,17 +614,18 @@
         <h3>Overview</h3>
         <p>Designed a stainless steel tea kettle with focus on aesthetic appeal, ergonomic functionality, and manufacturability.</p>
 
-        <div class="featured-image-container">
-          <div class="image-container" style="max-width:600px;margin:0 auto;">
-            <img src="https://i.imgur.com/zJt61S9.png" alt="Kettle 1" loading="lazy">
-            <div class="image-caption">Isometric view</div>
+        <h3>Showcase</h3>
+        <div class="showcase">
+          <div class="image-container" style="max-width:720px;margin:0 auto;">
+            <img src="https://i.imgur.com/Jq64wUm.png" alt="Kettle Rendered Surface Finish" loading="lazy">
+            <div class="image-caption">Rendered surface finish</div>
           </div>
           <button class="show-more-btn" onclick="toggleImages('kettle-images', this)">Show More Images (2)</button>
         </div>
 
         <div class="image-grid collapsible-grid" id="kettle-images">
-          <div class="image-container"><img src="https://i.imgur.com/N8cknnv.png" alt="Kettle 2" loading="lazy"><div class="image-caption">Side profile with handle</div></div>
-          <div class="image-container"><img src="https://i.imgur.com/Jq64wUm.png" alt="Kettle 3" loading="lazy"><div class="image-caption">Rendered surface finish</div></div>
+          <div class="image-container"><img src="https://i.imgur.com/zJt61S9.png" alt="Kettle Isometric" loading="lazy"><div class="image-caption">Isometric view</div></div>
+          <div class="image-container"><img src="https://i.imgur.com/N8cknnv.png" alt="Kettle Side Profile" loading="lazy"><div class="image-caption">Side profile with handle</div></div>
         </div>
 
         <div class="specs-table">
@@ -660,6 +644,7 @@
         <h2>Mario Kart Blue Shell</h2>
         <div class="project-meta">Personal Project | SolidWorks | 2024</div>
       </div>
+
       <div class="project-content">
         <div class="tags">
           <span class="tag">SolidWorks</span>
@@ -670,8 +655,9 @@
         <h3>Overview</h3>
         <p>Recreation of the iconic Blue Shell using advanced surface modeling techniques, demonstrating proficiency in creating complex organic shapes.</p>
 
-        <div class="featured-image-container">
-          <div class="image-container" style="max-width:600px;margin:0 auto;">
+        <h3>Showcase</h3>
+        <div class="showcase">
+          <div class="image-container" style="max-width:720px;margin:0 auto;">
             <img src="https://i.imgur.com/0jLQzC5.jpeg" alt="Blue Shell Assembly" loading="lazy">
             <div class="image-caption">Complete assembly</div>
           </div>
@@ -700,6 +686,7 @@
         <h2>Technical Drawing Sample</h2>
         <div class="project-meta">ME 1670 Engineering Drawing | SolidWorks | Fall 2023</div>
       </div>
+
       <div class="project-content">
         <div class="tags">
           <span class="tag">Technical Drawings</span>
@@ -711,7 +698,7 @@
         <p>Sample engineering drawing demonstrating proficiency in technical documentation, multi-view projection, and dimensioning standards per ASME Y14.5.</p>
 
         <div class="image-grid">
-          <div class="image-container">
+          <div class="image-container" style="max-width:720px;margin:0 auto;">
             <img src="https://i.imgur.com/7wPeAal.png" alt="Drawing" loading="lazy">
             <div class="image-caption">Multi-view projection with dimensions</div>
           </div>
@@ -743,7 +730,12 @@
 
       if (grid.classList.contains('visible')) {
         grid.classList.remove('visible');
-        btn.textContent = `Show More Images (${count})`;
+
+        if (btn.textContent.toLowerCase().includes("cad")) {
+          btn.textContent = `Show CAD Components (${count})`;
+        } else {
+          btn.textContent = `Show More Images (${count})`;
+        }
       } else {
         grid.classList.add('visible');
         btn.textContent = 'Show Less Images';
@@ -758,7 +750,7 @@
       let currentId = sections[0]?.id || '';
 
       for (const sec of sections) {
-        const top = sec.offsetTop - 120;
+        const top = sec.offsetTop - 130;
         if (scrollY >= top) currentId = sec.id;
       }
 
